@@ -136,12 +136,7 @@
         make.width.mas_equalTo(_viewFrame.size.width/3);
         make.bottom.equalTo(self.view.mas_bottom);
     }];
-    
     _state = -1;
-    
-
-    
-    
 }
 
 -(void)viewDidAppear:(BOOL)animated{

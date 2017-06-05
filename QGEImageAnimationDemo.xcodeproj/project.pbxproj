@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B1327061EE3E13B00C80288 /* AnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1327051EE3E13B00C80288 /* AnimationView.m */; };
 		3BAA758A1EA8C6AB006D9DB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BAA75891EA8C6AB006D9DB8 /* main.m */; };
 		3BAA758D1EA8C6AB006D9DB8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BAA758C1EA8C6AB006D9DB8 /* AppDelegate.m */; };
 		3BAA75901EA8C6AB006D9DB8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BAA758F1EA8C6AB006D9DB8 /* ViewController.m */; };
@@ -39,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3B1327041EE3E13B00C80288 /* AnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationView.h; sourceTree = "<group>"; };
+		3B1327051EE3E13B00C80288 /* AnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationView.m; sourceTree = "<group>"; };
 		3BAA75851EA8C6AB006D9DB8 /* QGEImageAnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QGEImageAnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BAA75891EA8C6AB006D9DB8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3BAA758B1EA8C6AB006D9DB8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -133,6 +136,8 @@
 				3BAA75881EA8C6AB006D9DB8 /* Supporting Files */,
 				3BAA75B01EA8C820006D9DB8 /* QGEViewAnimationController.h */,
 				3BAA75B11EA8C820006D9DB8 /* QGEViewAnimationController.m */,
+				3B1327041EE3E13B00C80288 /* AnimationView.h */,
+				3B1327051EE3E13B00C80288 /* AnimationView.m */,
 			);
 			path = QGEImageAnimationDemo;
 			sourceTree = "<group>";
@@ -309,6 +314,7 @@
 				3BAA75D61EA8D1A7006D9DB8 /* NSArray+MASAdditions.m in Sources */,
 				3BAA75D51EA8D1A7006D9DB8 /* MASViewConstraint.m in Sources */,
 				3BAA75D41EA8D1A7006D9DB8 /* MASViewAttribute.m in Sources */,
+				3B1327061EE3E13B00C80288 /* AnimationView.m in Sources */,
 				3BAA75D81EA8D1A7006D9DB8 /* View+MASAdditions.m in Sources */,
 				3BAA758A1EA8C6AB006D9DB8 /* main.m in Sources */,
 				3BAA75B21EA8C820006D9DB8 /* QGEViewAnimationController.m in Sources */,
@@ -512,6 +518,7 @@
 				3BAA75A91EA8C6AB006D9DB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3BAA75AA1EA8C6AB006D9DB8 /* Build configuration list for PBXNativeTarget "QGEImageAnimationDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +527,7 @@
 				3BAA75AC1EA8C6AB006D9DB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
